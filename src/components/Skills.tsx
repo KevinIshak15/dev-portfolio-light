@@ -1,0 +1,77 @@
+
+import { Code, Database, Globe, Smartphone, Cloud, Cpu } from "lucide-react";
+
+const Skills = () => {
+  const skillCategories = [
+    {
+      icon: Code,
+      title: "Frontend Development",
+      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "Angular"]
+    },
+    {
+      icon: Database,
+      title: "Backend Development",
+      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Express", "Django"]
+    },
+    {
+      icon: Cloud,
+      title: "Cloud & DevOps",
+      skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Linux"]
+    },
+    {
+      icon: Smartphone,
+      title: "Mobile Development",
+      skills: ["React Native", "Flutter", "iOS", "Android", "Expo", "PWA"]
+    },
+    {
+      icon: Globe,
+      title: "Web Technologies",
+      skills: ["REST APIs", "GraphQL", "WebSockets", "OAuth", "JWT", "Redis"]
+    },
+    {
+      icon: Cpu,
+      title: "Tools & Others",
+      skills: ["Git", "Figma", "Jest", "Cypress", "Webpack", "Vite"]
+    }
+  ];
+
+  return (
+    <section id="skills" className="py-20 px-4">
+      <div className="container mx-auto">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+            Skills & Technologies
+          </h2>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {skillCategories.map((category, index) => (
+              <div 
+                key={category.title}
+                className="p-6 bg-card rounded-lg border hover:shadow-lg transition-all duration-300 hover-scale animate-fade-in"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <div className="flex items-center mb-4">
+                  <category.icon className="text-primary mr-3" size={24} />
+                  <h3 className="text-xl font-semibold">{category.title}</h3>
+                </div>
+                
+                <div className="flex flex-wrap gap-2">
+                  {category.skills.map((skill) => (
+                    <span 
+                      key={skill}
+                      className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Skills;
