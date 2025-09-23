@@ -6,32 +6,32 @@ const Skills = () => {
     {
       icon: Code,
       title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "Angular"]
+      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vite", "Angular"]
     },
     {
       icon: Database,
       title: "Backend Development",
-      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Express", "Django"]
+      skills: ["Node.js", "Express.js", "Python", "FastAPI", "MongoDB", "Firebase Auth", "Firebase Database"]
     },
     {
       icon: Cloud,
       title: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Linux"]
+      skills: ["CI/CD", "Linux", "Git", "Azure DevOps", "Vercel", "Amazon S3", "Amazon CloudFront", "Amazon Elastic Beanstalk"]
     },
     {
       icon: Smartphone,
       title: "Mobile Development",
-      skills: ["React Native", "Flutter", "iOS", "Android", "Expo", "PWA"]
+      skills: ["React Native", "Flutter", "iOS", "Android", "Expo"]
     },
     {
       icon: Globe,
       title: "Web Technologies",
-      skills: ["REST APIs", "GraphQL", "WebSockets", "OAuth", "JWT", "Redis"]
+      skills: ["REST APIs", "OAuth", "JWT", "Spotify Web API", "Apple Music Web API"]
     },
     {
       icon: Cpu,
       title: "Tools & Others",
-      skills: ["Git", "Figma", "Jest", "Cypress", "Webpack", "Vite"]
+      skills: ["Figma", "Cortex XDR", "Cortex XSOAR", "ServiceNow", "IBM Guardium", "KnowBe4", "JUnit", "Veracode", "Acunetix", "Jest Testing"]
     }
   ];
 

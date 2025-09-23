@@ -32,35 +32,41 @@ const Contact = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
                   <Mail className="text-primary mr-3" size={20} />
-                  <span>john.doe@email.com</span>
+                  <span>kevinishak11@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="text-primary mr-3" size={20} />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+1 (905) 616-9532</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="text-primary mr-3" size={20} />
-                  <span>San Francisco, CA</span>
+                  <span>Milton, ON</span>
                 </div>
               </div>
               
               <div className="flex space-x-4">
                 <a 
-                  href="#" 
+                  href="https://github.com/kevin-ishak" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors hover-scale"
                   aria-label="GitHub"
                 >
                   <Github size={24} />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://linkedin.com/in/kevin-ishak" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors hover-scale"
                   aria-label="LinkedIn"
                 >
                   <Linkedin size={24} />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://twitter.com/kevinishak" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors hover-scale"
                   aria-label="Twitter"
                 >

@@ -5,34 +5,26 @@ const Experience = () => {
   const experiences = [
     {
       type: "work",
-      title: "Senior Software Engineer",
-      company: "Tech Innovation Inc.",
-      period: "2022 - Present",
-      description: "Lead a team of 5 developers in building scalable web applications. Implemented CI/CD pipelines and reduced deployment time by 60%.",
-      technologies: ["React", "Node.js", "AWS", "Docker", "TypeScript"]
+      title: "Application Developer",
+      company: "First Canadina Title",
+      period: "2023 - 2024",
+      description: "Developed enterprise-grade tools using Angular, .NET, and Microsoft SQL to modernize legacy systems, automate property searches, and streamline application security compliance for 300+ internal users. Enhanced performance, built CI/CD pipelines with Azure DevOps, and maintained 80% code coverage through robust unit testing and automation.",
+      technologies: ["Angular", ".NET", "Microsoft SQL Server", "Azure DevOps", "Veracode", "Acunetix", "JUnit", "Mockito"]
     },
     {
       type: "work",
-      title: "Full-Stack Developer",
-      company: "StartupCo",
-      period: "2020 - 2022",
-      description: "Developed and maintained multiple client applications. Built RESTful APIs and improved application performance by 40%.",
-      technologies: ["Vue.js", "Python", "PostgreSQL", "Redis", "JavaScript"]
-    },
-    {
-      type: "work",
-      title: "Frontend Developer",
-      company: "Digital Agency",
-      period: "2019 - 2020",
-      description: "Created responsive web applications and collaborated with designers to implement pixel-perfect UI/UX designs.",
-      technologies: ["HTML", "CSS", "JavaScript", "React", "Sass"]
+      title: "Information Security Analyst",
+      company: "First Canadina Title",
+      period: "2021 - 2022",
+      description: "Led daily vulnerability scans and managed remediation workflows to strengthen enterprise security posture. Automated incident response using ServiceNow and Cortex tools, ensured PCI compliance, and launched internal cybersecurity awareness campaigns.",
+      technologies: ["Cortex XDR", "Cortex XSOAR", "ServiceNow", "IBM Guardium", "KnowBe4"]
     },
     {
       type: "education",
-      title: "Bachelor of Science in Computer Science",
-      company: "University of Technology",
-      period: "2015 - 2019",
-      description: "Graduated with honors. Focused on software engineering, algorithms, and data structures. President of the Computer Science Club.",
+      title: "Bachelor of Engineering in Software Engineering",
+      company: "McMaster University",
+      period: "2020 - 2025",
+      description: "Focused on software engineering, algorithms, and data structures.",
       technologies: ["Java", "C++", "Python", "Data Structures", "Algorithms"]
     }
   ];

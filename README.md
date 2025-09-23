@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+# Kevin Ishak - Personal Portfolio Website
 
-## Project info
+A modern, responsive portfolio website showcasing my work as a Software Engineer.
 
-**URL**: https://lovable.dev/projects/2c144d00-5452-4099-b680-0e1800060aca
+## About
 
-## How can I edit this code?
+This is my personal portfolio website built with React, TypeScript, and Tailwind CSS. It features a clean, modern design that highlights my projects, skills, and professional experience.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Modern UI**: Built with shadcn/ui components and Tailwind CSS
+- **Project Showcase**: Interactive portfolio section with live demos and GitHub links
+- **Skills Section**: Comprehensive overview of technical skills and technologies
+- **Contact Form**: Easy way for potential employers and collaborators to reach out
+- **Smooth Animations**: Subtle animations and transitions for enhanced user experience
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2c144d00-5452-4099-b680-0e1800060aca) and start prompting.
+## Projects Featured
 
-Changes made via Lovable will be committed automatically to this repo.
+- **MusicBridge**: Transfer playlists between Spotify and Apple Music
+- **TeamSphere**: AI-powered soccer event management platform
+- **CliniMedia Portal**: Comprehensive dental clinic management system
 
-**Use your preferred IDE**
+## Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Styling**: Tailwind CSS with custom animations
+- **Icons**: Lucide React
+- **Deployment**: GitHub Pages
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting Started
 
-Follow these steps:
+To run this project locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/KevinIshak15/dev-portfolio-light.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd dev-portfolio-light
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment
 
-**Use GitHub Codespaces**
+This project is deployed on GitHub Pages and can be accessed at:
+[https://kevinishak15.github.io/dev-portfolio-light](https://kevinishak15.github.io/dev-portfolio-light)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contact
 
-## What technologies are used for this project?
+- **Email**: kevinishak11@gmail.com
+- **LinkedIn**: [linkedin.com/in/kevinishak](https://linkedin.com/in/kevinishak)
+- **GitHub**: [github.com/KevinIshak15](https://github.com/KevinIshak15)
 
-This project is built with:
+## License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2c144d00-5452-4099-b680-0e1800060aca) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open source and available under the [MIT License](LICENSE).

@@ -52,7 +52,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="font-bold text-xl text-primary">
-            John Doe
+            Kevin Ishak
           </div>
 
           {/* Desktop Navigation */}
