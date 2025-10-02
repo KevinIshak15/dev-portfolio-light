@@ -8,7 +8,10 @@ const Experience = () => {
       title: "Application Developer",
       company: "First Canadina Title",
       period: "2023 - 2024",
-      description: "Developed enterprise-grade tools using Angular, .NET, and Microsoft SQL to modernize legacy systems, automate property searches, and streamline application security compliance for 300+ internal users. Enhanced performance, built CI/CD pipelines with Azure DevOps, and maintained 80% code coverage through robust unit testing and automation.",
+      description: `• Delivered a property title search platform for 300+ analysts, built with Angular, .NET, & SQL.
+• Replaced the legacy flow using indexed queries, filter/sort UX, and an interactive dashboard, reducing retrieval time from 15m to 10s.
+• Delivered a centralized security posture web application managing 85 apps using Angular, .NET & SQL by integrating Veracode & Acunetix scans, achieving a single view to identify & prioritize security vulnerabilities.
+• Improved release reliability and speed using Azure DevOps multi-stage CI/CD pipelines, reducing build times, enhance code quality.`,
       technologies: ["Angular", ".NET", "Microsoft SQL Server", "Azure DevOps", "Veracode", "Acunetix", "JUnit", "Mockito"]
     },
     {
@@ -16,7 +19,9 @@ const Experience = () => {
       title: "Information Security Analyst",
       company: "First Canadina Title",
       period: "2021 - 2022",
-      description: "Led daily vulnerability scans and managed remediation workflows to strengthen enterprise security posture. Automated incident response using ServiceNow and Cortex tools, ensured PCI compliance, and launched internal cybersecurity awareness campaigns.",
+      description: `• Conducted and managed 50+ daily security findings, assessing severity in Cortex XSOAR, executed remediation in Cortex XDR, and creating/tracking ServiceNow tickets until risk was mitigated.
+• Optimized incident workflows by refining XSOAR playbooks, improving the accuracy of XDR corrective actions by 35%.
+• Monitored IBM Guardium reports for PCI compliance and increased company cybersecurity awareness through the development and launch of training campaigns on KnowBe4.`,
       technologies: ["Cortex XDR", "Cortex XSOAR", "ServiceNow", "IBM Guardium", "KnowBe4"]
     },
     {
@@ -69,7 +74,7 @@ const Experience = () => {
                       </div>
                     </div>
                     
-                    <p className="text-muted-foreground mb-4 leading-relaxed">
+                    <p className="text-muted-foreground mb-4 leading-relaxed whitespace-pre-line">
                       {exp.description}
                     </p>
                     
